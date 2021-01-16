@@ -1,0 +1,24 @@
+h1 {
+  color:pink;
+  font-size: 300%;
+  background-color: red;
+  font-family: fantasy;
+}
+p {
+  color:blue;
+  text-indent: 100px;
+
+}
+#b{
+  border-style: dashed;
+}
+#a{
+  border-style: dotted;
+}
+#d{
+  color: black;
+  word-spacing: 10px;
+  text-decoration-line: underline;
+  text-shadow: 3px 3px cyan;
+  font-size: 150%;
+}
