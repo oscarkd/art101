@@ -1,0 +1,43 @@
+body{
+  background-color:#477FAD;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px cyan;
+  text-align: center;
+}
+#con{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.head{
+  border:solid;
+  background-color: #80C3FA;
+  margin-right: 0%;
+  color:white;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+}
+
+
+figure{
+  flex-basis: 200%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+#selfie{
+    border: 60px solid #F4FA66;
+}
+nav{
+  border:3px dashed white;
+  background-color: #FA9C98;
+}
+#survey{
+  background-color: white;
+  padding:20px;
+}
