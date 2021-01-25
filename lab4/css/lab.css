@@ -1,0 +1,36 @@
+#challege{
+  background-color: white;
+  padding: 10px;
+  border-style: double;
+  border-color: black;
+  margin:10px;
+}
+#problems{
+  background-color: #C4A7EE;
+  color:white;
+  border-style: dashed;
+  border-color: #462B6B;
+  padding: 10px;
+  margin: 10px;
+}
+#results{
+  background-color: #84A2D9;
+  padding: 10px;
+  margin:10px;
+  border-style: groove;
+  border-color: #97A0F8;
+
+}
+body{
+  background-color: #9ED0F0;
+}
+
+#code{
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #36F05B;
+  padding: 20px;
+  margin:15px;
+}
