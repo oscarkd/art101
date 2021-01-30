@@ -1,0 +1,39 @@
+body{
+  background-color: #8AC1F2;
+}
+img{
+  float:right;
+  width: 33%;
+  border-radius: 30px;
+}
+#Challenge{
+  background-color: #F25AD9;
+  color:#F2BC66;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  margin-right: 40%;
+  text-shadow: white 1px 1px;
+}
+#Problems{
+  background-color: white;
+  padding: 10px;
+  border-style: groove;
+  border-color: #8847BF;
+  background-color: #E7B0F4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40%;
+}
+
+
+
+#Results{
+  font-family: monospace;
+  background-color: black;
+  Color:white;
+  border-color: #5CDB68;
+  border-style: solid;
+  padding: 20px;
+  margin-right: 40%;
+}
