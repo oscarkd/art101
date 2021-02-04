@@ -1,0 +1,43 @@
+body{
+  background-color: #F5D345;
+}
+#chall{
+  background-color: #16A89C;
+  color:white;
+  margin:20px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #14F5E2;
+  border-width: 5px;
+}
+
+#prob{
+  background-color: #A80D96;
+  color:white;
+  margin:20px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #F52CDD;
+  border-width: 5px;
+}
+
+#res{
+  background-color: yellow;
+  color:black;
+  margin:20px;
+  padding: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
+#code{
+  background-color: black;
+  color:white;
+  margin:20px;
+  padding: 10px;
+  border-style: solid;
+  border-color: green;
+  border-width: 10px;
+  font-family: monospace;
+}
