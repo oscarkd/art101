@@ -1,0 +1,11 @@
+body{
+  background-color: #CDB5F5;
+}
+div{
+  background-color: #31B1F5;
+  border-style: solid;
+  border-color: #3385FF;
+  color:white;
+  padding: 10px;
+  margin-top: 5px;
+}
