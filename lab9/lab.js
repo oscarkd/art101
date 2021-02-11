@@ -8,7 +8,9 @@
 // Use getElementById() to find your output <div> and assign it to a variable outputEl
 var outputEl = document.getElementById("output");
 
-var bodyEl = document.getElementById("body");
+    // TASK X - creates variable for the whole HTML body
+    var bodyEl = document.getElementById("body");
+    
 // Create a new element with document.createElement("p") and assign it to a variable new1El
 var new1El = document.createElement("p")
 // Change the html attribute of new1El to say something new.
@@ -18,14 +20,17 @@ var new2El = document.createElement("div")
 // Change the html attribute of new2El to say something else.
 new2El.innerHTML = "Hello. I am Mr. Cool"
 
-var new3El = document.createElement("a");
-new3El.innerHTML = "This is the third element, I can be printed before any element"
+    // TASK X - new element for task x
+    var new3El = document.createElement("a");
+    new3El.innerHTML = "This is the third element, I can be printed before any element"
+
 // Append both new elements one at a time using appendChild() to your output <div>
 outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
-// TASK X - append element before an element
-var beforeEl = bodyEl.childNodes[0];
-bodyEl.insertBefore(new3El, beforeEl);
+
+    // TASK X - append element before an element
+    var beforeEl = bodyEl.childNodes[0];
+    bodyEl.insertBefore(new3El, beforeEl);
 
 // Change the css attributes of at least two elements of your page
 new1El.style.color = "red";
