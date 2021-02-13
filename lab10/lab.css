@@ -1,0 +1,17 @@
+body{
+  background-color: #9dd4ab;
+}
+
+.a{
+  background-color: #c3f7f0;
+  border: solid;
+  border-color:white;
+
+  padding:10px;
+  margin: 20px;
+}
+
+#output{
+  text-align: center;
+  font-size: 300%;
+}
