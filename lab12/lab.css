@@ -1,0 +1,30 @@
+body{
+  background-color: #324ea8;
+}
+
+#main{
+  background-color: #86b7f0;
+  padding:20px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 30px;
+}
+h3{
+  font-variant: small-caps;
+  font-family: monospace;
+  font-size: 200%;
+}
+#output{
+  background-color: #f0c686;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+#output h3{
+  font-family: fantasy;
+  color:#ff680a;
+  background-color: #fff0ba;
+  border-style: double;
+  border-color: white;
+  border-radius: 10px;
+}
