@@ -48,5 +48,6 @@ function loop(){
  // If the number is a multiple of more than one 3, 5 or 7, it
  // should combine Fizz, Buzz, and Boom. For example, if the number
  // is a multiple of 3 AND 5, it should print "FizzBuzz!" and so on.
+    debugger;
  }
 }

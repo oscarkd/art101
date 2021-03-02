@@ -1,0 +1,19 @@
+img{
+  width:70%;
+  padding: 30px;
+}
+#main{
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+  background-color: #ffe6cc;
+}
+body{
+  background-color: #ffcc99;
+}
+h3{
+  font-size: 150%;
+  font-family: monospace;
+  color:#ff901a;
+  text-shadow: 2px 2px black;
+}
