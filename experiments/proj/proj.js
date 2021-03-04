@@ -1,46 +1,16 @@
-<!DOCTYPE html>
-<html>
-<style>
-#mydiv {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  text-align: center;
-  border: 1px solid #d3d3d3;
-}
-
-#mydivheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #2196F3;
-  color: #fff;
-}
-</style>
-<body>
-
-<h1>Draggable DIV Element</h1>
-
-<p>Click and hold the mouse button down while moving the DIV element</p>
-
-<div id="mydiv">
-  <div id="mydivheader">Click here to move</div>
-  <p>Move</p>
-  <p>this</p>
-  <p>DIV</p>
-</div>
-
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById("mydiv"));
+dragElement(document.getElementById("spiders"));
+dragElement(document.getElementById("snakes"));
+dragElement(document.getElementById("heights"));
+dragElement(document.getElementById("dark"));
+dragElement(document.getElementById("death"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
+    // if present, the header is where you move the DIV from:
     document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
   } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    // otherwise, move the DIV from anywhere inside the DIV:
     elmnt.onmousedown = dragMouseDown;
   }
 
@@ -69,12 +39,8 @@ function dragElement(elmnt) {
   }
 
   function closeDragElement() {
-    /* stop moving when mouse button is released:*/
+    // stop moving when mouse button is released:
     document.onmouseup = null;
     document.onmousemove = null;
   }
 }
-</script>
-
-</body>
-</html>
