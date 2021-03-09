@@ -1,0 +1,18 @@
+body{
+  background-color: #edd2be;
+}
+#main{
+  background-color: #ed9e64;
+  padding: 30px;
+  border-color: #96755d;
+  border-radius: 20px;
+  border-style: solid;
+}
+#main h3{
+  font-family: fantasy;
+  color: #f7e3a8;
+}
+#main p{
+  font-family: monospace;
+  color: white;
+}
